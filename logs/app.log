@@ -1,0 +1,82 @@
+2024-09-07 22:14:49.288 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\OneDrive - Bharatiya Vidya Bhavans Sardar Patel Institute Of Technology\#Testing\Automation Testing\Sites Specific\OrangeHRM_HybridFramework\crossbrowsertesting.xml
+
+2024-09-07 22:14:57.269 [main] INFO  testCases.TC_LoginTest - login test started..
+2024-09-07 22:14:58.976 [main] INFO  testCases.TC_LoginTest - test case finished
+2024-09-07 22:15:07.132 [main] INFO  testCases.TC_LoginTest - login test started..
+2024-09-07 22:16:05.481 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\OneDrive - Bharatiya Vidya Bhavans Sardar Patel Institute Of Technology\#Testing\Automation Testing\Sites Specific\OrangeHRM_HybridFramework\crossbrowsertesting.xml
+
+2024-09-07 22:16:20.206 [main] INFO  testCases.TC_LoginTest - login test started..
+2024-09-07 22:16:22.281 [main] INFO  testCases.TC_LoginTest - test case finished
+2024-09-07 22:17:36.121 [main] INFO  testCases.TC_LoginTest - login test started..
+2024-09-07 22:17:38.271 [main] INFO  testCases.TC_LoginTest - test case finished
+2024-09-07 22:18:19.904 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\OneDrive - Bharatiya Vidya Bhavans Sardar Patel Institute Of Technology\#Testing\Automation Testing\Sites Specific\OrangeHRM_HybridFramework\crossbrowsertesting.xml
+
+2024-09-07 22:18:31.964 [TestNG-tests-1] INFO  testCases.TC_LoginTest - login test started..
+2024-09-07 22:18:32.342 [TestNG-tests-2] INFO  testCases.TC_LoginTest - login test started..
+2024-09-07 22:18:34.346 [TestNG-tests-1] INFO  testCases.TC_LoginTest - test case finished
+2024-09-07 22:18:52.707 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\OneDrive - Bharatiya Vidya Bhavans Sardar Patel Institute Of Technology\#Testing\Automation Testing\Sites Specific\OrangeHRM_HybridFramework\crossbrowsertesting.xml
+
+2024-09-07 22:19:01.820 [TestNG-tests-2] INFO  testCases.TC_LoginTest - login test started..
+2024-09-07 22:19:02.943 [TestNG-tests-1] INFO  testCases.TC_LoginTest - login test started..
+2024-09-07 22:19:13.577 [TestNG-tests-2] INFO  testCases.TC_LoginTest - test case finished
+2024-09-07 22:19:27.937 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\OneDrive - Bharatiya Vidya Bhavans Sardar Patel Institute Of Technology\#Testing\Automation Testing\Sites Specific\OrangeHRM_HybridFramework\crossbrowsertesting.xml
+
+2024-09-07 22:19:41.264 [TestNG-tests-2] INFO  testCases.TC_LoginTest - login test started..
+2024-09-07 22:19:41.473 [TestNG-tests-1] INFO  testCases.TC_LoginTest - login test started..
+2024-09-07 22:19:43.003 [TestNG-tests-2] INFO  testCases.TC_LoginTest - test case finished
+2024-09-07 22:20:46.758 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\OneDrive - Bharatiya Vidya Bhavans Sardar Patel Institute Of Technology\#Testing\Automation Testing\Sites Specific\OrangeHRM_HybridFramework\crossbrowsertesting.xml
+
+2024-09-07 22:20:59.244 [TestNG-tests-2] INFO  testCases.TC_LoginTest - login test started..
+2024-09-07 22:21:00.289 [TestNG-tests-1] INFO  testCases.TC_LoginTest - login test started..
+2024-09-07 22:27:45.497 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\OneDrive - Bharatiya Vidya Bhavans Sardar Patel Institute Of Technology\#Testing\Automation Testing\Sites Specific\OrangeHRM_HybridFramework\crossbrowsertesting.xml
+
+2024-09-07 22:27:56.624 [TestNG-tests-1] INFO  testCases.TC_LoginTest - login test started..
+2024-09-07 22:27:57.311 [TestNG-tests-2] INFO  testCases.TC_LoginTest - login test started..
+2024-09-07 22:28:34.564 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\OneDrive - Bharatiya Vidya Bhavans Sardar Patel Institute Of Technology\#Testing\Automation Testing\Sites Specific\OrangeHRM_HybridFramework\crossbrowsertesting.xml
+
+2024-09-07 22:28:43.272 [TestNG-tests-2] INFO  testCases.TC_LoginTest - login test started..
+2024-09-07 22:28:49.025 [TestNG-tests-1] INFO  testCases.TC_LoginTest - login test started..
+2024-09-07 22:30:30.267 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\OneDrive - Bharatiya Vidya Bhavans Sardar Patel Institute Of Technology\#Testing\Automation Testing\Sites Specific\OrangeHRM_HybridFramework\crossbrowsertesting.xml
+
+2024-09-07 22:30:34.306 [TestNG-tests-2] INFO  testCases.TC_LoginTest - login test started..
+2024-09-07 22:30:38.391 [TestNG-tests-1] INFO  testCases.TC_LoginTest - login test started..
+2024-09-07 22:34:03.223 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\OneDrive - Bharatiya Vidya Bhavans Sardar Patel Institute Of Technology\#Testing\Automation Testing\Sites Specific\OrangeHRM_HybridFramework\crossbrowsertesting.xml
+
+2024-09-07 22:34:09.507 [TestNG-tests-1] INFO  testCases.TC_LoginTest - login test started..
+2024-09-07 22:35:53.634 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\OneDrive - Bharatiya Vidya Bhavans Sardar Patel Institute Of Technology\#Testing\Automation Testing\Sites Specific\OrangeHRM_HybridFramework\crossbrowsertesting.xml
+
+2024-09-07 22:36:03.312 [TestNG-tests-1] INFO  testCases.TC_LoginTest - login test started..
+2024-09-07 22:37:09.557 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\OneDrive - Bharatiya Vidya Bhavans Sardar Patel Institute Of Technology\#Testing\Automation Testing\Sites Specific\OrangeHRM_HybridFramework\crossbrowsertesting.xml
+
+2024-09-07 22:37:22.715 [main] INFO  testCases.TC_LoginTest - login test started..
+2024-09-07 22:37:37.943 [main] INFO  testCases.TC_LoginTest - login test started..
+2024-09-07 22:41:04.277 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\OneDrive - Bharatiya Vidya Bhavans Sardar Patel Institute Of Technology\#Testing\Automation Testing\Sites Specific\OrangeHRM_HybridFramework\testng.xml
+
+2024-09-07 22:41:24.191 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\OneDrive - Bharatiya Vidya Bhavans Sardar Patel Institute Of Technology\#Testing\Automation Testing\Sites Specific\OrangeHRM_HybridFramework\testng.xml
+
+2024-09-07 22:42:17.814 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\OneDrive - Bharatiya Vidya Bhavans Sardar Patel Institute Of Technology\#Testing\Automation Testing\Sites Specific\OrangeHRM_HybridFramework\testng.xml
+
+2024-09-07 22:43:46.094 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\OneDrive - Bharatiya Vidya Bhavans Sardar Patel Institute Of Technology\#Testing\Automation Testing\Sites Specific\OrangeHRM_HybridFramework\testng.xml
+
+2024-09-07 22:43:52.416 [main] INFO  testCases.TC_LoginTest - login test started..
+2024-09-07 22:49:39.231 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\OneDrive - Bharatiya Vidya Bhavans Sardar Patel Institute Of Technology\#Testing\Automation Testing\Sites Specific\OrangeHRM_HybridFramework\testng.xml
+
+2024-09-07 22:49:47.318 [main] INFO  testCases.TC_LoginTest - login test started..
+2024-09-07 22:49:49.604 [main] INFO  testCases.TC_LoginTest - test case finished
