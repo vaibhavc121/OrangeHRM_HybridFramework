@@ -11,7 +11,7 @@ public class TC_LoginTest extends BaseClass
 	@Test
 	public void verify_login()
 	{
-		logger.info("login test started..");
+		logger.info("--login test started--");
 		try
 		{
 			LoginPage lp = new LoginPage(driver);
@@ -26,6 +26,6 @@ public class TC_LoginTest extends BaseClass
 			Assert.fail();
 		}
 
-		logger.info("test case finished");
+		logger.info("--test case finished--");
 	}
 }

@@ -12,7 +12,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
+
+import pageObjects.LoginPage;
 
 public class BaseClass
 {
@@ -48,6 +51,15 @@ public class BaseClass
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get(p.getProperty("appurl"));
+	}
+
+	@BeforeMethod
+	public void login()
+	{
+		LoginPage lp = new LoginPage(driver);
+		lp.setUname(p.getProperty("username"));
+		lp.setPwd(p.getProperty("pwd"));
+		lp.clkLoginBtn();
 	}
 
 	@AfterClass
