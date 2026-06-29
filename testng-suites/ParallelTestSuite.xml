@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParallelTestSuite" parallel="false" thread-count="2">
+
+    <groups>
+        <run>
+            <include name="regression"/>
+            <include name="datadriven"/>
+        </run>
+    </groups>
+
+    <listeners>
+        <listener class-name="utilities.ExtentReportsUtils"/>
+    </listeners>
+
+    <!-- Chrome Suite -->
+    <test name="Chrome Tests">
+        <parameter name="os" value="windows"/>
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <!-- HR Core -->
+            <class name="testCases.HRMS.HRCore.BankTest"/>
+            <class name="testCases.HRMS.HRCore.CalendarTest"/>
+            <!--            <class name="testCases.HRMS.HRCore.DepartmentTest"/>-->
+            <!--            <class name="testCases.HRMS.HRCore.DesignationTest"/>-->
+            <!--            <class name="testCases.HRMS.HRCore.DocumentTypeTest"/>-->
+            <!--            <class name="testCases.HRMS.HRCore.EmployeeTest"/>-->
+            <!--            <class name="testCases.HRMS.HRCore.GradeTest"/>-->
+            <!--            <class name="testCases.HRMS.HRCore.QualificationTest"/>-->
+            <!--            <class name="testCases.HRMS.HRCore.ReligionTest"/>-->
+            <!--            <class name="testCases.HRMS.HRCore.WorkLocationTest"/>-->
+            <!--            <class name="testCases.HRMS.HRCore.DelegationTest"/>-->
+            <!--            <class name="testCases.HRMS.HRCore.LicensesTest"/>-->
+
+            <!--            &lt;!&ndash; Payroll &ndash;&gt;-->
+            <!--            <class name="testCases.HRMS.Payroll.VariableSalaryTest_Lambok"/>-->
+            <!--            <class name="testCases.HRMS.Payroll.LeaveTest"/>-->
+            <!--            <class name="testCases.HRMS.Payroll.LeaveResumptionTest"/>-->
+            <!--            <class name="testCases.HRMS.Payroll.LeaveEncashmentTest"/>-->
+            <!--            <class name="testCases.HRMS.Payroll.LeaveAdjustmentTest"/>-->
+            <!--            <class name="testCases.HRMS.Payroll.LeaveOpeningBalanceTest"/>-->
+            <!--            <class name="testCases.HRMS.Payroll.BenefitEncashmentTest"/>-->
+            <!--            <class name="testCases.HRMS.Payroll.PromotionTest"/>-->
+            <!--            <class name="testCases.HRMS.Payroll.PenaltyTest"/>-->
+            <!--            <class name="testCases.HRMS.Payroll.SuspendTest"/>-->
+            <!--            <class name="testCases.HRMS.Payroll.LoanTest"/>-->
+            <!--            <class name="testCases.HRMS.Payroll.TicketEncashmentTest"/>-->
+        </classes>
+    </test>
+
+    <!--    Edge Suite-->
+    <test name="Chrome1 Tests">
+        <parameter name="os" value="windows"/>
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <!--            Self Service-->
+            <!--            <class name="testCases.HRMS.SelfService.BenefitClaimTest"/>-->
+            <class name="testCases.HRMS.SelfService.SupportRequestTest"/>
+            <class name="testCases.HRMS.SelfService.LoanRequestTest"/>
+
+            <!--            <class name="testCases.HRMS.SelfService.LeaveRequestTest"/>-->
+            <!--            <class name="testCases.HRMS.SelfService.HRAssetTest"/>-->
+
+            <!--            <class name="testCases.HRMS.SelfService.OvertimeApplicationTest"/>-->
+            <!--            <class name="testCases.HRMS.SelfService.PromotionRequestTest"/>-->
+            <!--            <class name="testCases.HRMS.SelfService.ResignationTest"/>-->
+            <!--            <class name="testCases.HRMS.SelfService.SupportRequestCategoryTest"/>-->
+            <!--            <class name="testCases.HRMS.SelfService.TimeOffTest"/>-->
+            <!--            <class name="testCases.HRMS.SelfService.ExceptionRequestTest"/>-->
+            <!--            <class name="testCases.HRMS.SelfService.TravelRequestTest"/>-->
+            <!--            <class name="testCases.HRMS.SelfService.VerifyApproveWorkflowTest"/>-->
+            <!--            <class name="testCases.HRMS.SelfService.VerifyRejectWorkflowTest"/>-->
+            <!--            <class name="testCases.HRMS.SelfService.VerifyReviseWorkflowTest"/>-->
+            <!--            <class name="testCases.HRMS.SelfService.CreateBusinessTripClaimTest"/>-->
+            <!--            <class name="testCases.HRMS.SelfService.DeleteLeaveExtensionTest"/>-->
+
+            <!--            &lt;!&ndash; Attendance &ndash;&gt;-->
+            <!--            <class name="testCases.HRMS.Attendance.AttendanceTest"/>-->
+        </classes>
+    </test>
+
+</suite>
