@@ -23,7 +23,7 @@
         <classes>
 
             <!-- New Test -->
-            <class name="testCases.HRMS.SelfService.TravelRequestTest"/>
+            <class name="testCases.pim.EmployeeTest"/>
 
         </classes>
     </test>

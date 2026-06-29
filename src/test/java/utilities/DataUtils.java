@@ -11,21 +11,21 @@ public class DataUtils
 
 	}
 
-	public static String randomString()
+	public static String randomString(int count)
 	{
-		String generatedString = RandomStringUtils.randomAlphabetic(6);
+		String generatedString = RandomStringUtils.randomAlphabetic(count);
 		return generatedString;
 	}
 
-	public static String randomNumber()
+	public static String randomNumber(int count)
 	{
-		String generatedNumber = RandomStringUtils.randomNumeric(4);
+		String generatedNumber = RandomStringUtils.randomNumeric(count);
 		return generatedNumber;
 	}
 
-	public static String randomAlphaNumeric()
+	public static String randomAlphaNumeric(int count)
 	{
-		String alphanumeric = RandomStringUtils.randomAlphanumeric(10);
+		String alphanumeric = RandomStringUtils.randomAlphanumeric(count);
 		return alphanumeric;
 	}
 
@@ -53,11 +53,11 @@ public class DataUtils
 
 	}
 
-//	public String randomAlphaNumeric()
-//	{
-//		String generatedString = RandomStringUtils.randomAlphabetic(3);
-//		String generatedNumber = RandomStringUtils.randomNumeric(3);
-//		return (generatedString + "@" + generatedNumer);
-//	}
+	public static String randomAlphaNumeric()
+	{
+		String generatedString = RandomStringUtils.randomAlphabetic(3).toUpperCase();
+		String generatedNumber = RandomStringUtils.randomNumeric(3);
+		return (generatedString + generatedNumber);
+	}
 
 }

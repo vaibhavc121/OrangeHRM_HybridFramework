@@ -1,0 +1,2 @@
+successfully saved- @FindBy(className="oxd-text oxd-text--p oxd-text--toast-message oxd-toast-content-text") private WebElement successfullySaved;
+success-	    @FindBy(className="oxd-text oxd-text--p oxd-text--toast-title oxd-toast-content-text") private WebElement success;

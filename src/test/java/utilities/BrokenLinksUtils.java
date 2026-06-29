@@ -4,7 +4,7 @@ import base.BaseTest;
 import factory.DriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import testCases.HRMS.Global.BrokenLinksTest;
+
 
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -55,8 +55,8 @@ public class BrokenLinksUtils
             }
         }
         BaseTest.log("no of broken links: " + noofbrokenlinks);
-        BrokenLinksTest.totalBrokenLinks = BrokenLinksTest.totalBrokenLinks + noofbrokenlinks;
-        BrokenLinksTest.totalNonBrokenLinks = BrokenLinksTest.totalNonBrokenLinks + totalLinks;
+        /*BrokenLinksTest.totalBrokenLinks = BrokenLinksTest.totalBrokenLinks + noofbrokenlinks;
+        BrokenLinksTest.totalNonBrokenLinks = BrokenLinksTest.totalNonBrokenLinks + totalLinks;*/
 
 //		List<WebElement> allLinks = driver.findElements(By.tagName("a"));
 //		System.out.println("Total links found: " + allLinks.size());

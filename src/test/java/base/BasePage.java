@@ -22,17 +22,7 @@ import org.testng.Assert;
 import com.github.javafaker.Faker;
 
 import org.testng.asserts.SoftAssert;
-import pageObjects.HRMS.Attendance.AttendancePage;
-import pageObjects.HRMS.Global.TopNavigationBar;
-import pageObjects.HRMS.HRCore.EmployeePage;
-import pageObjects.HRMS.HRCore.HRCorePage;
-import pageObjects.HRMS.Learning.LearningPage;
-import pageObjects.HRMS.Login.LoginPage;
-import pageObjects.HRMS.Onboarding.OnboardingPage;
-import pageObjects.HRMS.Payroll.PayrollPage;
-import pageObjects.HRMS.Recruitment.RecruitmentPage;
-import pageObjects.HRMS.SelfService.SelfServicePage;
-import pageObjects.HRMS.SuccessionPlanning.SuccessionPage;
+
 import utilities.BrowserUtils;
 import utilities.DateUtils;
 import utilities.DriverUtils;
@@ -179,7 +169,7 @@ public class BasePage
     }
 
     //region Modules
-    public static void clickOnHRCore()
+    /*public static void clickOnHRCore()
     {
         HRCorePage.clickHRCore();
     }
@@ -207,11 +197,10 @@ public class BasePage
     {
         OnboardingPage.clickOnboarding();
     }
-
     public static void clickOnSuccessionPlanning()
     {
         SuccessionPage.clickSuccessionPlanning();
-    }
+    }*/
 
     //endregion
 
@@ -401,7 +390,7 @@ public class BasePage
 
     public static void clickOnSave()
     {
-        waitForElement1(By.xpath("//span[normalize-space()='Save']")).click();
+        waitForElement1(By.xpath("//button[normalize-space()='Save']")).click();
         waitTS(2);
     }
 
@@ -683,7 +672,7 @@ public class BasePage
         waitTS(2);
         selectDropdownOption(value);*/
 
-        TopNavigationBar.globalSearch(value);
+        /*TopNavigationBar.globalSearch(value);*/
     }
     public static void globalSearchEquals(String value)
     {
@@ -694,7 +683,7 @@ public class BasePage
         waitTS(2);
         selectDropdownOption(value);*/
 
-        TopNavigationBar.globalSearchEquals(value);
+        /*TopNavigationBar.globalSearchEquals(value);*/
     }
 
     public static void scrollDownWebPageSample()
@@ -1155,7 +1144,7 @@ public class BasePage
     // region Common Actions
     public static void logoutAndLogin(String username, String pwd)
     {
-        EmployeePage ep = new EmployeePage();
+        /*EmployeePage ep = new EmployeePage();
         ep.clickRightAreaMenu();
         BaseTest.log("clickRightAreaMenu");
 
@@ -1163,7 +1152,7 @@ public class BasePage
         BaseTest.log("clicklogOff");
 
         LoginPage lp = new LoginPage();
-        lp.login(username, pwd);
+        lp.login(username, pwd);*/
     }
 
     public static void selectFilterAll()
@@ -1426,11 +1415,19 @@ public class BasePage
         }
     }
 
-    public static void validation(String expectedMessage)
+    public static boolean validation()
     {
-        WebElement element = waitForElement1(By.className("dx-toast-message"));
+        WebElement element = waitForElement1(
+                By.cssSelector(".oxd-text.oxd-text--p.oxd-text--toast-message.oxd-toast-content-text")
+        );
         String actualMessage = element.getText();
-        Assert.assertTrue(actualMessage.contains(expectedMessage));
+        if(actualMessage.toLowerCase().contains("success"))
+        {
+           return true;
+        } else
+        {
+            return false;
+        }
     }
 
     public static boolean validateListing(String filterValue, int filterIndex, int resultIndex)

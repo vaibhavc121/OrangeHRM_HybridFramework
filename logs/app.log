@@ -1,0 +1,692 @@
+2026-06-29 23:59:53.887 [main] INFO  testCases.pim.EmployeeTest.setup - >>======>>======>> Automation Engineer (SDET)- Vaibhav Chavan <<======<<======<<
+2026-06-29 23:59:53.890 [main] INFO  testCases.pim.EmployeeTest.setup - --test execution started--
+2026-06-29 23:59:56.180 [main] INFO  testCases.pim.EmployeeTest.log - setup - browser opened
+2026-06-29 23:59:56.196 [main] INFO  testCases.pim.EmployeeTest.log - setup - cookies deleted
+2026-06-29 23:59:56.227 [main] INFO  testCases.pim.EmployeeTest.log - setup - browser maximized
+2026-06-29 23:59:56.235 [main] INFO  testCases.pim.EmployeeTest.log - setup - implicit wait applied for 10 seconds
+2026-06-29 23:59:58.068 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided app URL in browser
+2026-06-29 23:59:58.569 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided username
+2026-06-29 23:59:58.764 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided password
+2026-06-29 23:59:58.916 [main] INFO  testCases.pim.EmployeeTest.log - setup - clicked on sign in button
+2026-06-29 23:59:58.956 [main] ERROR testCases.pim.EmployeeTest.verifyAddEmployee - Test failed due to exception: 
+java.lang.RuntimeException: Invalid path or file: D:\1. Projects\_Testing\AutomationTesting\OrangeHRM\OrangeHRM_HybridFramework\src\test\java\models\pim\pim\PIMData.json does not exist
+	at utilities.FileUtils.getFile(FileUtils.java:37) ~[test-classes/:?]
+	at utilities.FileUtils.getDataFile(FileUtils.java:27) ~[test-classes/:?]
+	at testCases.pim.EmployeeTest.verifyAddEmployee(EmployeeTest.java:23) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2026-06-29 23:59:59.041 [main] ERROR testCases.pim.EmployeeTest.verifyAddEmployee - Test failed due to exception: 
+java.lang.RuntimeException: Invalid path or file: D:\1. Projects\_Testing\AutomationTesting\OrangeHRM\OrangeHRM_HybridFramework\src\test\java\models\pim\pim\PIMData.json does not exist
+	at utilities.FileUtils.getFile(FileUtils.java:37) ~[test-classes/:?]
+	at utilities.FileUtils.getDataFile(FileUtils.java:27) ~[test-classes/:?]
+	at testCases.pim.EmployeeTest.verifyAddEmployee(EmployeeTest.java:23) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2026-06-30 00:03:43.617 [main] INFO  testCases.pim.EmployeeTest.setup - >>======>>======>> Automation Engineer (SDET)- Vaibhav Chavan <<======<<======<<
+2026-06-30 00:03:43.619 [main] INFO  testCases.pim.EmployeeTest.setup - --test execution started--
+2026-06-30 00:03:44.796 [main] INFO  testCases.pim.EmployeeTest.log - setup - browser opened
+2026-06-30 00:03:44.810 [main] INFO  testCases.pim.EmployeeTest.log - setup - cookies deleted
+2026-06-30 00:03:44.852 [main] INFO  testCases.pim.EmployeeTest.log - setup - browser maximized
+2026-06-30 00:03:44.857 [main] INFO  testCases.pim.EmployeeTest.log - setup - implicit wait applied for 10 seconds
+2026-06-30 00:03:47.033 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided app URL in browser
+2026-06-30 00:03:47.490 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided username
+2026-06-30 00:03:47.662 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided password
+2026-06-30 00:03:47.834 [main] INFO  testCases.pim.EmployeeTest.log - setup - clicked on sign in button
+2026-06-30 00:03:50.168 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on PIM Menu
+2026-06-30 00:03:51.050 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on Add Employee
+2026-06-30 00:03:53.909 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered First Name: Kavita
+2026-06-30 00:03:56.196 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Middle Name: Vaibhav
+2026-06-30 00:03:58.409 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Last Name: Chavan
+2026-06-30 00:04:10.609 [main] ERROR testCases.pim.EmployeeTest.verifyAddEmployee - Test failed due to exception: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@class='oxd-input oxd-input--active'])[2]"}
+  (Session info: chrome=149.0.7827.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a67b7c3dbf11d6601af5de6268ed17cb, findElement {using=xpath, value=(//input[@class='oxd-input oxd-input--active'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\Vaibhav\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51893}, goog:processID: 11672, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51893/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a67b7c3dbf11d6601af5de6268ed17cb
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.39.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.39.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy29.sendKeys(Unknown Source) ~[?:?]
+	at base.BasePage.clearAndProvide1(BasePage.java:631) ~[test-classes/:?]
+	at pageObjects.pim.PIMPage.enterEmployeeId(PIMPage.java:48) ~[test-classes/:?]
+	at testCases.pim.EmployeeTest.verifyAddEmployee(EmployeeTest.java:44) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2026-06-30 00:04:11.426 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on PIM Menu
+2026-06-30 00:04:12.231 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on Add Employee
+2026-06-30 00:04:15.077 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered First Name: Kavita
+2026-06-30 00:04:17.309 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Middle Name: Vaibhav
+2026-06-30 00:04:19.533 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Last Name: Chavan
+2026-06-30 00:04:31.805 [main] ERROR testCases.pim.EmployeeTest.verifyAddEmployee - Test failed due to exception: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@class='oxd-input oxd-input--active'])[2]"}
+  (Session info: chrome=149.0.7827.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a67b7c3dbf11d6601af5de6268ed17cb, findElement {using=xpath, value=(//input[@class='oxd-input oxd-input--active'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\Vaibhav\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51893}, goog:processID: 11672, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51893/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a67b7c3dbf11d6601af5de6268ed17cb
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.39.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.39.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy29.sendKeys(Unknown Source) ~[?:?]
+	at base.BasePage.clearAndProvide1(BasePage.java:631) ~[test-classes/:?]
+	at pageObjects.pim.PIMPage.enterEmployeeId(PIMPage.java:48) ~[test-classes/:?]
+	at testCases.pim.EmployeeTest.verifyAddEmployee(EmployeeTest.java:44) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2026-06-30 00:06:26.148 [main] INFO  testCases.pim.EmployeeTest.setup - >>======>>======>> Automation Engineer (SDET)- Vaibhav Chavan <<======<<======<<
+2026-06-30 00:06:26.153 [main] INFO  testCases.pim.EmployeeTest.setup - --test execution started--
+2026-06-30 00:06:27.677 [main] INFO  testCases.pim.EmployeeTest.log - setup - browser opened
+2026-06-30 00:06:27.694 [main] INFO  testCases.pim.EmployeeTest.log - setup - cookies deleted
+2026-06-30 00:06:27.732 [main] INFO  testCases.pim.EmployeeTest.log - setup - browser maximized
+2026-06-30 00:06:27.739 [main] INFO  testCases.pim.EmployeeTest.log - setup - implicit wait applied for 10 seconds
+2026-06-30 00:06:29.973 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided app URL in browser
+2026-06-30 00:06:30.448 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided username
+2026-06-30 00:06:30.623 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided password
+2026-06-30 00:06:30.758 [main] INFO  testCases.pim.EmployeeTest.log - setup - clicked on sign in button
+2026-06-30 00:06:33.408 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on PIM Menu
+2026-06-30 00:06:34.657 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on Add Employee
+2026-06-30 00:06:37.601 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered First Name: Kavita
+2026-06-30 00:06:39.909 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Middle Name: Vaibhav
+2026-06-30 00:06:42.152 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Last Name: Chavan
+2026-06-30 00:11:39.018 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Employee ID
+2026-06-30 00:11:48.707 [main] INFO  testCases.pim.EmployeeTest.setup - >>======>>======>> Automation Engineer (SDET)- Vaibhav Chavan <<======<<======<<
+2026-06-30 00:11:48.710 [main] INFO  testCases.pim.EmployeeTest.setup - --test execution started--
+2026-06-30 00:11:49.929 [main] INFO  testCases.pim.EmployeeTest.log - setup - browser opened
+2026-06-30 00:11:49.942 [main] INFO  testCases.pim.EmployeeTest.log - setup - cookies deleted
+2026-06-30 00:11:49.978 [main] INFO  testCases.pim.EmployeeTest.log - setup - browser maximized
+2026-06-30 00:11:49.983 [main] INFO  testCases.pim.EmployeeTest.log - setup - implicit wait applied for 10 seconds
+2026-06-30 00:11:52.018 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided app URL in browser
+2026-06-30 00:11:52.488 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided username
+2026-06-30 00:11:52.660 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided password
+2026-06-30 00:11:52.825 [main] INFO  testCases.pim.EmployeeTest.log - setup - clicked on sign in button
+2026-06-30 00:11:55.208 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on PIM Menu
+2026-06-30 00:11:56.079 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on Add Employee
+2026-06-30 00:11:58.971 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered First Name: Kavita
+2026-06-30 00:12:01.272 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Middle Name: Vaibhav
+2026-06-30 00:12:03.551 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Last Name: Chavan
+2026-06-30 00:12:25.793 [main] ERROR testCases.pim.EmployeeTest.verifyAddEmployee - Test failed due to exception: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@class='oxd-input oxd-input--active'])[2]"}
+  (Session info: chrome=149.0.7827.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [697a825fe8d7125f63d53c0cf03338d9, findElement {value=(//input[@class='oxd-input oxd-input--active'])[2], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\Vaibhav\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62170}, goog:processID: 27976, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62170/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 697a825fe8d7125f63d53c0cf03338d9
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.39.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.39.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy29.sendKeys(Unknown Source) ~[?:?]
+	at base.BasePage.clearAndProvide1(BasePage.java:636) ~[test-classes/:?]
+	at pageObjects.pim.PIMPage.enterEmployeeId(PIMPage.java:48) ~[test-classes/:?]
+	at testCases.pim.EmployeeTest.verifyAddEmployee(EmployeeTest.java:44) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2026-06-30 00:12:26.635 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on PIM Menu
+2026-06-30 00:12:27.531 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on Add Employee
+2026-06-30 00:12:30.356 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered First Name: Kavita
+2026-06-30 00:12:32.581 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Middle Name: Vaibhav
+2026-06-30 00:12:34.841 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Last Name: Chavan
+2026-06-30 00:13:11.172 [main] INFO  testCases.pim.EmployeeTest.setup - >>======>>======>> Automation Engineer (SDET)- Vaibhav Chavan <<======<<======<<
+2026-06-30 00:13:11.175 [main] INFO  testCases.pim.EmployeeTest.setup - --test execution started--
+2026-06-30 00:13:12.396 [main] INFO  testCases.pim.EmployeeTest.log - setup - browser opened
+2026-06-30 00:13:12.414 [main] INFO  testCases.pim.EmployeeTest.log - setup - cookies deleted
+2026-06-30 00:13:12.454 [main] INFO  testCases.pim.EmployeeTest.log - setup - browser maximized
+2026-06-30 00:13:12.460 [main] INFO  testCases.pim.EmployeeTest.log - setup - implicit wait applied for 10 seconds
+2026-06-30 00:13:14.528 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided app URL in browser
+2026-06-30 00:13:15.070 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided username
+2026-06-30 00:13:15.246 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided password
+2026-06-30 00:13:15.436 [main] INFO  testCases.pim.EmployeeTest.log - setup - clicked on sign in button
+2026-06-30 00:13:17.988 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on PIM Menu
+2026-06-30 00:13:18.904 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on Add Employee
+2026-06-30 00:13:22.754 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered First Name: Kavita
+2026-06-30 00:13:26.012 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Middle Name: Vaibhav
+2026-06-30 00:13:29.271 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Last Name: Chavan
+2026-06-30 00:13:42.498 [main] ERROR testCases.pim.EmployeeTest.verifyAddEmployee - Test failed due to exception: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@class='oxd-input oxd-input--active'])[2]"}
+  (Session info: chrome=149.0.7827.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b206d38f870e04e6c15b26b1e11a6a11, findElement {using=xpath, value=(//input[@class='oxd-input oxd-input--active'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\Vaibhav\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59519}, goog:processID: 25396, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59519/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b206d38f870e04e6c15b26b1e11a6a11
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.39.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.39.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy29.sendKeys(Unknown Source) ~[?:?]
+	at base.BasePage.clearAndProvide1(BasePage.java:631) ~[test-classes/:?]
+	at pageObjects.pim.PIMPage.enterEmployeeId(PIMPage.java:48) ~[test-classes/:?]
+	at testCases.pim.EmployeeTest.verifyAddEmployee(EmployeeTest.java:44) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2026-06-30 00:13:43.288 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on PIM Menu
+2026-06-30 00:13:44.116 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on Add Employee
+2026-06-30 00:13:47.965 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered First Name: Kavita
+2026-06-30 00:13:51.271 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Middle Name: Vaibhav
+2026-06-30 00:13:54.560 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Last Name: Chavan
+2026-06-30 00:13:59.349 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Employee ID
+2026-06-30 00:14:09.372 [main] ERROR testCases.pim.EmployeeTest.verifyAddEmployee - Test failed due to exception: 
+org.openqa.selenium.TimeoutException: Expected condition failed: Element NOT found: By.xpath: //span[normalize-space()='Save'] (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265) ~[selenium-support-4.39.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.39.0.jar:?]
+	at base.BasePage.waitForElement1(BasePage.java:1335) ~[test-classes/:?]
+	at base.BasePage.clickOnSave(BasePage.java:393) ~[test-classes/:?]
+	at testCases.pim.EmployeeTest.verifyAddEmployee(EmployeeTest.java:47) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Save']"}
+  (Session info: chrome=149.0.7827.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b206d38f870e04e6c15b26b1e11a6a11, findElement {using=xpath, value=//span[normalize-space()='Save']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\Vaibhav\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59519}, goog:processID: 25396, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59519/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b206d38f870e04e6c15b26b1e11a6a11
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378) ~[selenium-remote-driver-4.39.0.jar:?]
+	at base.BasePage.lambda$waitForElement1$2(BasePage.java:1337) ~[test-classes/:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.39.0.jar:?]
+	... 28 more
+2026-06-30 00:15:43.585 [main] INFO  testCases.pim.EmployeeTest.setup - >>======>>======>> Automation Engineer (SDET)- Vaibhav Chavan <<======<<======<<
+2026-06-30 00:15:43.591 [main] INFO  testCases.pim.EmployeeTest.setup - --test execution started--
+2026-06-30 00:15:45.032 [main] INFO  testCases.pim.EmployeeTest.log - setup - browser opened
+2026-06-30 00:15:45.050 [main] INFO  testCases.pim.EmployeeTest.log - setup - cookies deleted
+2026-06-30 00:15:45.086 [main] INFO  testCases.pim.EmployeeTest.log - setup - browser maximized
+2026-06-30 00:15:45.092 [main] INFO  testCases.pim.EmployeeTest.log - setup - implicit wait applied for 10 seconds
+2026-06-30 00:15:47.361 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided app URL in browser
+2026-06-30 00:15:47.863 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided username
+2026-06-30 00:15:48.077 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided password
+2026-06-30 00:15:48.292 [main] INFO  testCases.pim.EmployeeTest.log - setup - clicked on sign in button
+2026-06-30 00:15:52.218 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on PIM Menu
+2026-06-30 00:15:53.133 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on Add Employee
+2026-06-30 00:15:56.023 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered First Name: Kavita
+2026-06-30 00:15:58.293 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Middle Name: Vaibhav
+2026-06-30 00:16:00.542 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Last Name: Chavan
+2026-06-30 00:16:49.789 [main] ERROR testCases.pim.EmployeeTest.verifyAddEmployee - Test failed due to exception: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@class='oxd-input oxd-input--active'])[2]"}
+  (Session info: chrome=149.0.7827.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [652bcb05181aacd7ae213c9540d7a83d, findElement {value=(//input[@class='oxd-input oxd-input--active'])[2], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\Vaibhav\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52402}, goog:processID: 28760, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52402/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 652bcb05181aacd7ae213c9540d7a83d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.39.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.39.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy29.sendKeys(Unknown Source) ~[?:?]
+	at base.BasePage.clearAndProvide1(BasePage.java:631) ~[test-classes/:?]
+	at pageObjects.pim.PIMPage.enterEmployeeId(PIMPage.java:48) ~[test-classes/:?]
+	at testCases.pim.EmployeeTest.verifyAddEmployee(EmployeeTest.java:44) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2026-06-30 00:21:26.286 [main] INFO  testCases.pim.EmployeeTest.setup - >>======>>======>> Automation Engineer (SDET)- Vaibhav Chavan <<======<<======<<
+2026-06-30 00:21:26.290 [main] INFO  testCases.pim.EmployeeTest.setup - --test execution started--
+2026-06-30 00:21:27.767 [main] INFO  testCases.pim.EmployeeTest.log - setup - browser opened
+2026-06-30 00:21:27.781 [main] INFO  testCases.pim.EmployeeTest.log - setup - cookies deleted
+2026-06-30 00:21:27.823 [main] INFO  testCases.pim.EmployeeTest.log - setup - browser maximized
+2026-06-30 00:21:27.834 [main] INFO  testCases.pim.EmployeeTest.log - setup - implicit wait applied for 10 seconds
+2026-06-30 00:21:31.782 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided app URL in browser
+2026-06-30 00:21:32.258 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided username
+2026-06-30 00:21:32.674 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided password
+2026-06-30 00:21:32.806 [main] INFO  testCases.pim.EmployeeTest.log - setup - clicked on sign in button
+2026-06-30 00:21:35.183 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on PIM Menu
+2026-06-30 00:21:36.029 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on Add Employee
+2026-06-30 00:21:38.954 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered First Name: Kavita
+2026-06-30 00:21:41.200 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Middle Name: Vaibhav
+2026-06-30 00:21:43.409 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Last Name: Chavan
+2026-06-30 00:21:59.515 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Employee ID
+2026-06-30 00:22:17.271 [main] ERROR testCases.pim.EmployeeTest.verifyAddEmployee - Test failed due to exception: 
+org.openqa.selenium.TimeoutException: Expected condition failed: Element NOT found: By.xpath: //span[normalize-space()='Save'] (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265) ~[selenium-support-4.39.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.39.0.jar:?]
+	at base.BasePage.waitForElement1(BasePage.java:1335) ~[test-classes/:?]
+	at base.BasePage.clickOnSave(BasePage.java:393) ~[test-classes/:?]
+	at testCases.pim.EmployeeTest.verifyAddEmployee(EmployeeTest.java:44) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Save']"}
+  (Session info: chrome=149.0.7827.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2fc8c2fc23b41e1b6f3b34c6f3a7667d, findElement {value=//span[normalize-space()='Save'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\Vaibhav\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49880}, goog:processID: 10432, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49880/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2fc8c2fc23b41e1b6f3b34c6f3a7667d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378) ~[selenium-remote-driver-4.39.0.jar:?]
+	at base.BasePage.lambda$waitForElement1$2(BasePage.java:1337) ~[test-classes/:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.39.0.jar:?]
+	... 28 more
+2026-06-30 00:22:18.097 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on PIM Menu
+2026-06-30 00:22:18.949 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on Add Employee
+2026-06-30 00:22:21.795 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered First Name: Kavita
+2026-06-30 00:22:24.056 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Middle Name: Vaibhav
+2026-06-30 00:22:26.294 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Last Name: Chavan
+2026-06-30 00:22:32.912 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Employee ID
+2026-06-30 00:22:42.971 [main] ERROR testCases.pim.EmployeeTest.verifyAddEmployee - Test failed due to exception: 
+org.openqa.selenium.TimeoutException: Expected condition failed: Element NOT found: By.xpath: //span[normalize-space()='Save'] (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:265) ~[selenium-support-4.39.0.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228) ~[selenium-support-4.39.0.jar:?]
+	at base.BasePage.waitForElement1(BasePage.java:1335) ~[test-classes/:?]
+	at base.BasePage.clickOnSave(BasePage.java:393) ~[test-classes/:?]
+	at testCases.pim.EmployeeTest.verifyAddEmployee(EmployeeTest.java:44) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Save']"}
+  (Session info: chrome=149.0.7827.200)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2fc8c2fc23b41e1b6f3b34c6f3a7667d, findElement {value=//span[normalize-space()='Save'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.200, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: C:\Users\Vaibhav\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49880}, goog:processID: 10432, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49880/devtoo..., se:cdpVersion: 149.0.7827.200, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2fc8c2fc23b41e1b6f3b34c6f3a7667d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384) ~[selenium-remote-driver-4.39.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378) ~[selenium-remote-driver-4.39.0.jar:?]
+	at base.BasePage.lambda$waitForElement1$2(BasePage.java:1337) ~[test-classes/:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203) ~[selenium-support-4.39.0.jar:?]
+	... 28 more
+2026-06-30 00:24:21.111 [main] INFO  testCases.pim.EmployeeTest.setup - >>======>>======>> Automation Engineer (SDET)- Vaibhav Chavan <<======<<======<<
+2026-06-30 00:24:21.114 [main] INFO  testCases.pim.EmployeeTest.setup - --test execution started--
+2026-06-30 00:24:22.295 [main] INFO  testCases.pim.EmployeeTest.log - setup - browser opened
+2026-06-30 00:24:22.310 [main] INFO  testCases.pim.EmployeeTest.log - setup - cookies deleted
+2026-06-30 00:24:22.349 [main] INFO  testCases.pim.EmployeeTest.log - setup - browser maximized
+2026-06-30 00:24:22.354 [main] INFO  testCases.pim.EmployeeTest.log - setup - implicit wait applied for 10 seconds
+2026-06-30 00:24:24.506 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided app URL in browser
+2026-06-30 00:24:24.968 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided username
+2026-06-30 00:24:25.121 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided password
+2026-06-30 00:24:25.319 [main] INFO  testCases.pim.EmployeeTest.log - setup - clicked on sign in button
+2026-06-30 00:24:27.685 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on PIM Menu
+2026-06-30 00:24:28.558 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on Add Employee
+2026-06-30 00:24:31.379 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered First Name: Kavita
+2026-06-30 00:24:33.625 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Middle Name: Vaibhav
+2026-06-30 00:24:35.876 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Last Name: Chavan
+2026-06-30 00:24:35.945 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Employee ID
+2026-06-30 00:24:38.056 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on Save button
+2026-06-30 00:24:39.032 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on PIM Menu
+2026-06-30 00:24:39.864 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on Add Employee
+2026-06-30 00:24:42.746 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered First Name: Kavita
+2026-06-30 00:24:44.991 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Middle Name: Vaibhav
+2026-06-30 00:24:47.274 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Last Name: Chavan
+2026-06-30 00:24:47.343 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Employee ID
+2026-06-30 00:24:49.535 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on Save button
+2026-06-30 00:26:22.049 [main] INFO  testCases.pim.EmployeeTest.setup - >>======>>======>> Automation Engineer (SDET)- Vaibhav Chavan <<======<<======<<
+2026-06-30 00:26:22.054 [main] INFO  testCases.pim.EmployeeTest.setup - --test execution started--
+2026-06-30 00:26:23.491 [main] INFO  testCases.pim.EmployeeTest.log - setup - browser opened
+2026-06-30 00:26:23.507 [main] INFO  testCases.pim.EmployeeTest.log - setup - cookies deleted
+2026-06-30 00:26:23.547 [main] INFO  testCases.pim.EmployeeTest.log - setup - browser maximized
+2026-06-30 00:26:23.557 [main] INFO  testCases.pim.EmployeeTest.log - setup - implicit wait applied for 10 seconds
+2026-06-30 00:26:25.430 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided app URL in browser
+2026-06-30 00:26:25.883 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided username
+2026-06-30 00:26:26.033 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided password
+2026-06-30 00:26:26.176 [main] INFO  testCases.pim.EmployeeTest.log - setup - clicked on sign in button
+2026-06-30 00:26:28.478 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on PIM Menu
+2026-06-30 00:26:29.348 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on Add Employee
+2026-06-30 00:26:32.243 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered First Name: Kavita
+2026-06-30 00:26:34.513 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Middle Name: Vaibhav
+2026-06-30 00:26:36.773 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Last Name: Chavan
+2026-06-30 00:26:36.873 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Employee ID
+2026-06-30 00:26:39.006 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on Save button
+2026-06-30 00:30:09.395 [main] INFO  testCases.pim.EmployeeTest.setup - >>======>>======>> Automation Engineer (SDET)- Vaibhav Chavan <<======<<======<<
+2026-06-30 00:30:09.398 [main] INFO  testCases.pim.EmployeeTest.setup - --test execution started--
+2026-06-30 00:30:10.659 [main] INFO  testCases.pim.EmployeeTest.log - setup - browser opened
+2026-06-30 00:30:10.673 [main] INFO  testCases.pim.EmployeeTest.log - setup - cookies deleted
+2026-06-30 00:30:10.710 [main] INFO  testCases.pim.EmployeeTest.log - setup - browser maximized
+2026-06-30 00:30:10.715 [main] INFO  testCases.pim.EmployeeTest.log - setup - implicit wait applied for 10 seconds
+2026-06-30 00:30:13.192 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided app URL in browser
+2026-06-30 00:30:14.000 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided username
+2026-06-30 00:30:14.203 [main] INFO  testCases.pim.EmployeeTest.log - setup - provided password
+2026-06-30 00:30:14.370 [main] INFO  testCases.pim.EmployeeTest.log - setup - clicked on sign in button
+2026-06-30 00:30:17.596 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on PIM Menu
+2026-06-30 00:30:18.648 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on Add Employee
+2026-06-30 00:30:21.586 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered First Name: Kavita
+2026-06-30 00:30:23.859 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Middle Name: Vaibhav
+2026-06-30 00:30:26.100 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Last Name: Chavan
+2026-06-30 00:30:26.183 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Entered Employee ID
+2026-06-30 00:30:28.296 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Clicked on Save button
+2026-06-30 00:30:28.349 [main] INFO  testCases.pim.EmployeeTest.log - verifyAddEmployee - Verified: Employee added successfully: Kavita Chavan

@@ -3,16 +3,11 @@ package base;
 import java.io.FileReader;
 import java.io.IOException;
 import java.time.Duration;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Properties;
 
 import com.github.javafaker.Faker;
 import factory.DriverFactory;
 import factory.LoggerFactory;
-import org.apache.logging.log4j.LogManager; //log4j
-import org.apache.logging.log4j.Logger; //log4j
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -20,14 +15,13 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
 import org.testng.asserts.SoftAssert;
-import pageObjects.HRMS.Login.LoginPage;
+import pageObjects.login.LoginPage;
 
 public class BaseTest
 {
@@ -282,7 +276,7 @@ public class BaseTest
         log("provided username");
         lp.setPwd(p.getProperty("pwd"));
         log("provided password");
-        lp.clkSignin();
+        lp.clkLogin();
         log("clicked on sign in button");
 
         //endregion
