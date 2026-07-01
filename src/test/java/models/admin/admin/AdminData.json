@@ -1,0 +1,12 @@
+{
+  "addUser": [
+    {
+      "userRole": "Admin",
+      "employeeName": "Kavita",
+      "status": "Enabled",
+      "username": "Kavita@123",
+      "password": "Kavita@123",
+      "confirmPassword": "Kavita@123"
+    }
+  ]
+}

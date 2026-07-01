@@ -39,7 +39,7 @@ public class BasePage
     {
         PageFactory.initElements(DriverFactory.getDriver(), this);
     }
-    // endregion
+    // endregionc
 
     //region Left Navigation Sidebar
 
@@ -516,26 +516,56 @@ public class BasePage
 
     public static void selectDropdownOption(String expectedValue)
     {
-        List<WebElement> dropdownList;
-        try
-        {
-            dropdownList = waitForElements2(By.xpath("//div[@class='dx-item-content dx-list-item-content']"));
-        } catch (Exception e)
-        {
-            dropdownList = waitForElements2(By.xpath("//div[@class='dx-item dx-list-item']"));
-        }
+        boolean found = false;
+
+        List<WebElement> dropdownList =
+                waitForElements2(By.xpath("//div[@class='oxd-select-option']"));
 
         for (WebElement dropdownElement : dropdownList)
         {
-            String actualValue = dropdownElement.getText().trim().toLowerCase();
-            if (actualValue.contains(expectedValue.toLowerCase()))
+            String actualValue = dropdownElement.getText().trim();
+
+            if (actualValue.equalsIgnoreCase(expectedValue))
             {
                 dropdownElement.click();
-                BaseTest.log("Value selected from result: " + expectedValue);
+                BaseTest.log("Value selected from result: " + actualValue);
+                found = true;
                 break;
             }
         }
-        BaseTest.log("No matching value found in result: " + expectedValue);
+
+        if (!found)
+        {
+            //BaseTest.log("No matching value found in result: " + expectedValue);
+            throw new RuntimeException("No matching value found in result: " + expectedValue);
+        }
+    }
+
+    public static void selectDropdownOptionDD(String expectedValue) //Dynamic/Auto complete dropdown
+    {
+        boolean found = false;
+
+        List<WebElement> dropdownList =
+                waitForElements2(By.xpath("//div[@class='oxd-autocomplete-option']"));
+
+        for (WebElement dropdownElement : dropdownList)
+        {
+            String actualValue = dropdownElement.getText().trim();
+
+            if (actualValue.equalsIgnoreCase(expectedValue))
+            {
+                dropdownElement.click();
+                BaseTest.log("Value selected from result: " + actualValue);
+                found = true;
+                break;
+            }
+        }
+
+        if (!found)
+        {
+            //BaseTest.log("No matching value found in result: " + expectedValue);
+            throw new RuntimeException("No matching value found in result: " + expectedValue);
+        }
     }
 
     public static void selectDropdownOptionEquals(String expectedValue)
@@ -1296,6 +1326,24 @@ public class BasePage
         Actions actions = new Actions(DriverFactory.getDriver());
         actions.sendKeys(Keys.ENTER).perform();
     }
+
+    public static void pressArrowDown()
+    {
+        Actions actions = new Actions(DriverFactory.getDriver());
+        actions.sendKeys(Keys.ARROW_DOWN).perform();
+    }
+
+    public static void pressArrowDown(int count)
+    {
+        Actions actions = new Actions(DriverFactory.getDriver());
+
+        for (int i = 0; i < count; i++)
+        {
+            actions.sendKeys(Keys.ARROW_DOWN);
+        }
+
+        actions.perform();
+    }
     // endregion
 
     // region Waits
@@ -1421,9 +1469,9 @@ public class BasePage
                 By.cssSelector(".oxd-text.oxd-text--p.oxd-text--toast-message.oxd-toast-content-text")
         );
         String actualMessage = element.getText();
-        if(actualMessage.toLowerCase().contains("success"))
+        if (actualMessage.toLowerCase().contains("success"))
         {
-           return true;
+            return true;
         } else
         {
             return false;

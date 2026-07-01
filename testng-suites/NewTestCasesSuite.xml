@@ -23,7 +23,8 @@
         <classes>
 
             <!-- New Test -->
-            <class name="testCases.pim.EmployeeTest"/>
+            <!--<class name="testCases.pim.PIMTest"/>-->
+            <class name="testCases.admin.AdminTest"/>
 
         </classes>
     </test>

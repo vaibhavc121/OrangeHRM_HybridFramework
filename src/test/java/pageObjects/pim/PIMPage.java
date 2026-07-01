@@ -10,39 +10,48 @@ public class PIMPage extends BasePage
 {
     //region Locators
 
-    @FindBy(xpath = "//span[text()='PIM']") private WebElement pimMenu;
+    @FindBy(xpath = "//span[text()='PIM']")
+    private WebElement pimMenu;
 
     //region Add Employee
-    @FindBy(xpath = "//a[text()='Add Employee']") private WebElement addEmployee;
-    @FindBy(xpath = "//input[@name='firstName']") private WebElement firstName;
-    @FindBy(xpath = "//input[@name='middleName']") private WebElement middleName;
-    @FindBy(xpath = "//input[@name='lastName']") private WebElement lastName;
-    @FindBy(xpath = "(//input[@class='oxd-input oxd-input--active'])[2]") private WebElement empid;
+    @FindBy(xpath = "//a[text()='Add Employee']")
+    private WebElement addEmployee;
+    @FindBy(xpath = "//input[@name='firstName']")
+    private WebElement firstName;
+    @FindBy(xpath = "//input[@name='middleName']")
+    private WebElement middleName;
+    @FindBy(xpath = "//input[@name='lastName']")
+    private WebElement lastName;
+    @FindBy(xpath = "(//input[@class='oxd-input oxd-input--active'])[2]")
+    private WebElement empid;
     //endregion
-
-
 
     //endregion
 
     //region Action Methods
     public void clickPIMMenu()
     {
-       clickOnElement1(pimMenu);
+        clickOnElement1(pimMenu);
     }
 
-    public void clickAddEmployee() {
+    public void clickAddEmployee()
+    {
         clickOnElement1(addEmployee);
     }
 
-    public void enterFirstName(String fName) {
+    public void enterFirstName(String fName)
+    {
+        waitTS(2);
         clearAndProvide1(firstName, fName);
     }
 
-    public void enterMiddleName(String mName) {
+    public void enterMiddleName(String mName)
+    {
         clearAndProvide1(middleName, mName);
     }
 
-    public void enterLastName(String lName) {
+    public void enterLastName(String lName)
+    {
         clearAndProvide1(lastName, lName);
     }
 
@@ -51,7 +60,6 @@ public class PIMPage extends BasePage
         JavaScriptUtils.provideValueJS(empid, DataUtils.randomAlphaNumeric());
         //clearAndProvide1(empid, id);
     }
-
 
     //endregion
 }

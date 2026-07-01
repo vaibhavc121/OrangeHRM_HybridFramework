@@ -10,7 +10,7 @@ import utilities.*;
 
 import java.util.List;
 
-public class EmployeeTest extends BaseTest
+public class PIMTest extends BaseTest
 {
     @Test(groups = "regression", retryAnalyzer = RetryAnalyzer.class)
     public void verifyAddEmployee()

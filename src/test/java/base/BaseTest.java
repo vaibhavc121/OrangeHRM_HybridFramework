@@ -3,6 +3,8 @@ package base;
 import java.io.FileReader;
 import java.io.IOException;
 import java.time.Duration;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Properties;
 
 import com.github.javafaker.Faker;
@@ -205,11 +207,20 @@ public class BaseTest
             options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
             options.setExperimentalOption("useAutomationExtension", false);
 
-            options.setExperimentalOption("prefs", new java.util.HashMap<String, Object>()
-            {{
-                put("credentials_enable_service", false);
-                put("profile.password_manager_enabled", false);
-            }});
+            Map<String, Object> prefs = new HashMap<>();
+
+            // Disable password manager
+            prefs.put("credentials_enable_service", false);
+            prefs.put("profile.password_manager_enabled", false);
+
+            // Disable password leak detection
+            prefs.put("profile.password_manager_leak_detection", false);
+
+            // Disable password breach notifications
+            prefs.put("safebrowsing.enabled", true);
+            prefs.put("safebrowsing.password_protection_enabled", false);
+
+            options.setExperimentalOption("prefs", prefs);
 
             // Map<String, String> mobileEmulation = new HashMap<>();
             // mobileEmulation.put("deviceName", "Pixel 2");
