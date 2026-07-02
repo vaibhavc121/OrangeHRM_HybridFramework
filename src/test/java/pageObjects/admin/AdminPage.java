@@ -2,6 +2,7 @@ package pageObjects.admin;
 
 import base.BasePage;
 import factory.DriverFactory;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -41,7 +42,19 @@ public class AdminPage extends BasePage
     //endregion
 
     //region Update User
-    //(//div[@class='oxd-table-cell oxd-padding-cell'])[2]
+    @FindBy(xpath = "(//input[@class='oxd-input oxd-input--active'])[2]")
+    private WebElement usernamesearch;
+    @FindBy(xpath = "(//button[normalize-space()='Search'])[1]")
+    private WebElement search;
+    @FindBy(xpath = "(//i[@class='oxd-icon bi-pencil-fill'])[1]")
+    private WebElement pencilIcon;
+    @FindBy(xpath = "(//i[@class='oxd-icon bi-trash'])[1]")
+    private WebElement deleteIcon;
+    @FindBy(xpath = "//i[@class='oxd-icon bi-check oxd-checkbox-input-icon']")
+    private WebElement changePasswordCheckBox;
+    @FindBy(xpath = "//button[normalize-space()='Yes, Delete']")
+    private WebElement yesDelete;
+
     //endregion
 
     //endregion
@@ -51,6 +64,7 @@ public class AdminPage extends BasePage
     //region Action Methods
     public void clickOnAdmin()
     {
+        waitTS(3);
         clickOnElement1(admin);
     }
 
@@ -117,7 +131,62 @@ public class AdminPage extends BasePage
     //endregion
 
     //region Update User
+    public void provideUsername(String uname)
+    {
+        waitTS(2);
+        //clearAndProvide1(usernamesearch, uname); //locissue
+        //JavaScriptUtils.provideValueJS(usernamesearch, uname);
+        clickOnElement1(usernamesearch);
+        provideValueUsingKeyboard(uname);
+    }
 
+    public void clickSearch()
+    {
+        waitTS(1);
+        clickOnElement1(search);
+        waitTS(2);
+        JavaScriptUtils.clickElementByJavaScript(DriverFactory.getDriver(), search);
+    }
+
+    public void performAction(String expectedUname, String action)
+    {
+        String username = waitForElement1(By.xpath("(//div[@class='oxd-table-cell oxd-padding-cell'])[2]")).getText().trim().toLowerCase();
+        if (expectedUname.equalsIgnoreCase(username) && action.equalsIgnoreCase("Edit"))
+        {
+            clickOnElement1(pencilIcon);
+        }
+
+        if (expectedUname.equalsIgnoreCase(username) && action.equalsIgnoreCase("Delete"))
+        {
+            clickOnElement1(deleteIcon);
+        }
+    }
+
+    public void clickYesDelete()
+    {
+        clickOnElement1(yesDelete);
+    }
+
+    public void selectStatus1(String status)
+    {
+        clickOnElement1(statusDD);
+        selectDropdownOption(status);
+    }
+
+    public void clickChangePwdCheckbox()
+    {
+        clickOnElement1(changePasswordCheckBox);
+    }
+
+    public void providePwd1(String pwd)
+    {
+        clearAndProvide1(password, pwd);
+    }
+
+    public void provideConfirmPwd1(String confirmPwd)
+    {
+        clearAndProvide1(confirmPassword, confirmPwd);
+    }
     //endregion
 
     //endregion

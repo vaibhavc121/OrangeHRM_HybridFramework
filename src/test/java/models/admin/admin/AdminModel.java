@@ -17,6 +17,13 @@ public class AdminModel
         public String username;
         public String password;
         public String confirmPassword;
+    }
 
+    public static class UpdateUserModel
+    {
+        public String status;
+        public String username;
+        public String password1;
+        public String confirmPassword1;
     }
 }

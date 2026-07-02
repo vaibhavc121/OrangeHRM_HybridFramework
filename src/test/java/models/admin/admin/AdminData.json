@@ -8,5 +8,13 @@
       "password": "Kavita@123",
       "confirmPassword": "Kavita@123"
     }
+  ],
+  "updateUser": [
+    {
+      "status": "Disabled",
+      "username": "Kavita@123",
+      "password1": "Kavita@321",
+      "confirmPassword1": "Kavita@321"
+    }
   ]
 }

@@ -41,7 +41,7 @@ public class PIMPage extends BasePage
 
     public void enterFirstName(String fName)
     {
-        waitTS(2);
+        waitTS(3);
         clearAndProvide1(firstName, fName);
     }
 

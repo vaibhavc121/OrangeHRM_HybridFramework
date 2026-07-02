@@ -390,6 +390,7 @@ public class BasePage
 
     public static void clickOnSave()
     {
+        waitTS(1);
         waitForElement1(By.xpath("//button[normalize-space()='Save']")).click();
         waitTS(2);
     }
@@ -685,6 +686,13 @@ public class BasePage
         JavascriptExecutor jsExecutor = (JavascriptExecutor) DriverFactory.getDriver();
         WebElement element = waitForElement(locator);
         jsExecutor.executeScript("arguments[0].value='" + value + "';", element);
+    }
+
+    public static void provideValueUsingKeyboard(String value)
+    {
+        Actions actions = new Actions(DriverFactory.getDriver());
+        actions.sendKeys(value)
+                .perform();
     }
 
     public static void provideDescription(String value)
